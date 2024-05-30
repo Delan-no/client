@@ -12,7 +12,7 @@ const POSTS = [
     id: "1",
     imgblog: ImgBlog1,
     category: "education",
-    title: "Lorem ipsum dolor sit.",
+    title: "Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit.",
     description:
       "   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis suscipit accusantium animi harum deleniti esse beatae perspiciatis ipsum dolorem cumque.",
     authorID: 3,
@@ -46,6 +46,15 @@ const POSTS = [
   },
   {
     id: "5",
+    imgblog: ImgBlog5,
+    category: "education",
+    title: "Lorem ipsum dolor sit.",
+    description:
+      "   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis suscipit accusantium animi harum deleniti esse beatae perspiciatis ipsum dolorem cumque.",
+    authorID: 5,
+  },
+  {
+    id: "6",
     imgblog: ImgBlog5,
     category: "education",
     title: "Lorem ipsum dolor sit.",
