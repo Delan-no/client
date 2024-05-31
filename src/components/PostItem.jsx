@@ -8,7 +8,7 @@ const PostItem = ({postID, category, title, description, authorID, imgblog}) => 
   return (
     <article className="post">
         <div className="post__imgblog">
-            <img src={imgblog} alt={title}/>
+            <Link to={`/posts/${postID}`}><img src={imgblog} alt={title}/></Link>
         </div>
 
         <div className="post__content">

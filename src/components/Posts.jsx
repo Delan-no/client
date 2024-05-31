@@ -62,6 +62,42 @@ const POSTS = [
       "   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis suscipit accusantium animi harum deleniti esse beatae perspiciatis ipsum dolorem cumque.",
     authorID: 5,
   },
+  {
+    id: "7",
+    imgblog: ImgBlog5,
+    category: "santé",
+    title: "Parlons de la santé.",
+    description:
+      "   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis suscipit accusantium animi harum deleniti esse beatae perspiciatis ipsum dolorem cumque.",
+    authorID: 6,
+  },
+  {
+    id: "8",
+    imgblog: ImgBlog5,
+    category: "économie",
+    title: "Lorem ipsum dolor économie.",
+    description:
+      "   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis suscipit accusantium animi harum deleniti esse beatae perspiciatis ipsum dolorem cumque.",
+    authorID: 5,
+  },
+  {
+    id: "9",
+    imgblog: ImgBlog5,
+    category: "culture",
+    title: "Lorem ipsum dolor culture.",
+    description:
+      "   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis suscipit accusantium animi harum deleniti esse beatae perspiciatis ipsum dolorem cumque.",
+    authorID: 10,
+  },
+  {
+    id: "10",
+    imgblog: ImgBlog5,
+    category: "sociologie",
+    title: "Lorem ipsum dolor sociologie.",
+    description:
+      "   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis suscipit accusantium animi harum deleniti esse beatae perspiciatis ipsum dolorem cumque.",
+    authorID: 9,
+  },
 ];
 
 const Posts = () => {
