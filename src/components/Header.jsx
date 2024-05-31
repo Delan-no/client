@@ -22,12 +22,12 @@ const Header = () => {
           <Link to="/authors" className="text-lg">Auteurs</Link>
           <Link to="/logout" className="text-lg">Déconnexion</Link>
         </div>
-        <button className="md:hidden text-2xl" onClick={toggleMenu}>
+        <button className="md:hidden text-2xl py-4" onClick={toggleMenu}>
           {isOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
         </button>
       </div>
       {isOpen && (
-        <div className="md:hidden bg-gray-200 w-full border-t border-gray-200">
+        <div className="md:hidden bg-gray-200 w-full border-t border-gray-200 ">
           <ul className="flex flex-col items-center space-y-4 p-4">
             <li><Link to="/profil" className="lg:text-lg font-bold underline" onClick={toggleMenu}>Délanno</Link></li>
             <li><Link to="/create" className="lg:text-lg" onClick={toggleMenu}>Créer un Post</Link></li>

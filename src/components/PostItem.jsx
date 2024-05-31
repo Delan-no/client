@@ -6,8 +6,8 @@ const PostItem = ({postID, category, title, description, authorID, imgblog}) => 
     const shorDescription = description.length > 140 ? description.substr(0, 140) + '...' : description; 
     const postTitle = title.length > 30 ? title.substr(0, 10) + '...' : title; 
   return (
-    <article className="post my-5">
-        <div className="h-[50%]">
+    <article className="post">
+        <div className="post__imgblog">
             <img src={imgblog} alt={title}/>
         </div>
 
