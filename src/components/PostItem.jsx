@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 import PostAuthor from '../components/PostAuthor'
 
 const PostItem = ({postID, category, title, description, authorID, imgblog}) => {
-    const shorDescription = description.length > 145 ? description.substr(0, 145) + '...' : description; 
+    const shorDescription = description.length > 140 ? description.substr(0, 140) + '...' : description; 
     const postTitle = title.length > 30 ? title.substr(0, 10) + '...' : title; 
   return (
-    <article className="post">
-        <div className="post__imgblog">
+    <article className="post my-5">
+        <div className="h-[50%]">
             <img src={imgblog} alt={title}/>
         </div>
 

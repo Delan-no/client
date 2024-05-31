@@ -67,8 +67,8 @@ const POSTS = [
 const Posts = () => {
   const [posts, setPosts] = useState(POSTS);
   return (
-    <section className="posts">
-      <div className="container posts__container">
+    <section className="mx-4">
+      <div className="">
         {posts.map(
           ({ id, imgblog, category, title, description, authorID }) => (
             <PostItem

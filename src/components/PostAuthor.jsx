@@ -5,10 +5,10 @@ import Robot from '../images/robot.jpg'
 const PostAuthor = () => {
   return (
     <Link to={`/posts/users/delanno`}className='post__author'>
-        <div className="post__author-avatar">
-            <img src={Robot} alt="" />
+        <div className="">
+            <img src={Robot} alt="" className='rounded-full h-8 w-8'/>
         </div>
-        <div className="post__authors-details">
+        <div className="post__authors-details ">
             <h5>By: Délan</h5>
             <small>Just Now</small>
         </div>
