@@ -8,7 +8,7 @@ const Posts = () => {
   const [posts, setPosts] = useState(POSTS);
   return (
     <section className="mx-4">
-      {posts.length > 0 ? <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4">
+      {posts.length > 0 ? <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:grid-cols-2 2xl:grid-cols-4 gap-2 lg:gap-4">
         {posts.map(
           ({ id, imgblog, category, title, description, authorID }) => (
             <PostItem
